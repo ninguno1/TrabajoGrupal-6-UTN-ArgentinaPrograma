@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+/***Menu de navegación***/
+body{
+    background:#f9f9f9;
+    
+}
 .cabecera{
     align-items: center;
     background: #f9f9f9;
@@ -37,8 +41,52 @@
     color: #333333;
 
 }
+/***Banner***/
 
 .banner{
     width: 100%;
 }
 
+/***quienes somos***/
+
+.contenedor-quienes{
+    background: #c7c8ca;
+    text-align: center;
+    padding: 1rem 1rem;   
+}
+
+.titulo-quienes{
+    padding: 10px;
+}
+
+#pstyle{
+    font-style: italic;
+}
+
+em{
+    color: beige;
+}
+
+
+/***El porqué deberían elegirnos***/
+
+.titulo-centralizado{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+
+ .contenedor-porque{
+  padding: 50px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+ }
+
+ .items{
+    font-style: italic;
+  }
+
+ .video{
+  width: 50%;
+ }
