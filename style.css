@@ -70,23 +70,17 @@ em{
 
 /***El porqué deberían elegirnos***/
 
-.titulo-centralizado{
+
+section h3{
+    text-align: center; 
+    margin: auto;
+  }
+
+#columna2_porque{
     text-align: center;
-    padding: 10px;
-    font-size: 20px;
-  }
+}
 
- .contenedor-porque{
-  padding: 50px;
-  display: flex;
-  margin-top: 30px;
-  justify-content: space-between;
- }
-
- .items{
-    font-style: italic;
-  }
-
- .video{
-  width: 50%;
- }
+section iframe{
+    height: 360px;
+    width: 520px;
+}
